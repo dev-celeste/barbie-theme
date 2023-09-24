@@ -1,0 +1,36 @@
+{
+  "name": "barbie-theme-devceleste",
+  "displayName": "Barbie Theme by Dev Celeste",
+  "description": "Everything's better in pink!",
+  "version": "0.0.1",
+  "publisher": "DevCeleste",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/dev-celeste/barbie-theme"
+  },
+  "keywords": [
+    "theme",
+    "barbie theme",
+    "pink theme",
+    "pink",
+    "pink and black",
+    "dev celeste",
+    "devceleste",
+    "devceleste barbie theme"
+  ],
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Barbie Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Barbie Theme-color-theme.json"
+      }
+    ]
+  }
+}
